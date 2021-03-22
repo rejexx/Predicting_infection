@@ -1,0 +1,6 @@
+,Condition,Measure ID,Measure Name
+12,Sepsis Care,SEP_1,Appropriate care for severe sepsis and septic shock
+13,Sepsis Care,SEP_SH_3HR,Septic Shock 3-Hour Bundle
+15,Sepsis Care,SEV_SEP_3HR,Severe Sepsis 3-Hour Bundle
+16,Sepsis Care,SEV_SEP_6HR,Severe Sepsis 6-Hour Bundle
+31,Sepsis Care,SEP_SH_6HR,Septic Shock 6-Hour Bundle

@@ -1,0 +1,22 @@
+,HCAHPS Measure ID,HCAHPS Question
+3,H_COMP_1_LINEAR_SCORE,Nurse communication - linear mean score
+4,H_COMP_1_STAR_RATING,Nurse communication - star rating
+17,H_COMP_2_LINEAR_SCORE,Doctor communication - linear mean score
+18,H_COMP_2_STAR_RATING,Doctor communication - star rating
+31,H_COMP_3_LINEAR_SCORE,Staff responsiveness - linear mean score
+32,H_COMP_3_STAR_RATING,Staff responsiveness - star rating
+42,H_COMP_5_LINEAR_SCORE,Communication about medicines - linear mean score
+43,H_COMP_5_STAR_RATING,Communication about medicines - star rating
+52,H_COMP_6_LINEAR_SCORE,Discharge information - linear mean score
+53,H_COMP_6_STAR_RATING,Discharge information - star rating
+61,H_COMP_7_LINEAR_SCORE,Care transition - linear mean score
+62,H_COMP_7_STAR_RATING,Care transition - star rating
+75,H_CLEAN_LINEAR_SCORE,Cleanliness - linear mean score
+76,H_CLEAN_STAR_RATING,Cleanliness - star rating
+80,H_QUIET_LINEAR_SCORE,Quietness - linear mean score
+81,H_QUIET_STAR_RATING,Quietness - star rating
+85,H_HSP_RATING_LINEAR_SCORE,Overall hospital rating - linear mean score
+86,H_HSP_RATING_STAR_RATING,Overall hospital rating - star rating
+90,H_RECMND_LINEAR_SCORE,Recommend hospital - linear mean score
+91,H_RECMND_STAR_RATING,Recommend hospital - star rating
+92,H_STAR_RATING,Summary star rating

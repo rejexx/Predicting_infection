@@ -1,0 +1,37 @@
+Measure ID,Measure Name
+HAI_1_CILOWER,Central Line Associated Bloodstream Infection (ICU + select Wards): Lower Confidence Limit
+HAI_1_CIUPPER,Central Line Associated Bloodstream Infection (ICU + select Wards): Upper Confidence Limit
+HAI_1_DOPC,Central Line Associated Bloodstream Infection: Number of Device Days
+HAI_1_ELIGCASES,Central Line Associated Bloodstream Infection (ICU + select Wards): Predicted Cases
+HAI_1_NUMERATOR,Central Line Associated Bloodstream Infection (ICU + select Wards): Observed Cases
+HAI_1_SIR,Central Line Associated Bloodstream Infection (ICU + select Wards)
+HAI_2_CILOWER,Catheter Associated Urinary Tract Infections (ICU + select Wards): Lower Confidence Limit
+HAI_2_CIUPPER,Catheter Associated Urinary Tract Infections (ICU + select Wards): Upper Confidence Limit
+HAI_2_DOPC,Catheter Associated Urinary Tract Infections (ICU + select Wards): Number of Urinary Catheter Days
+HAI_2_ELIGCASES,Catheter Associated Urinary Tract Infections (ICU + select Wards): Predicted Cases
+HAI_2_NUMERATOR,Catheter Associated Urinary Tract Infections (ICU + select Wards): Observed Cases
+HAI_2_SIR,Catheter Associated Urinary Tract Infections (ICU + select Wards)
+HAI_3_CILOWER,SSI - Colon Surgery: Lower Confidence Limit
+HAI_3_CIUPPER,SSI - Colon Surgery: Upper Confidence Limit
+HAI_3_DOPC,SSI - Colon Surgery: Number of Procedures
+HAI_3_ELIGCASES,SSI - Colon Surgery: Predicted Cases
+HAI_3_NUMERATOR,SSI - Colon Surgery: Observed Cases
+HAI_3_SIR,SSI - Colon Surgery
+HAI_4_CILOWER,SSI - Abdominal Hysterectomy: Lower Confidence Limit
+HAI_4_CIUPPER,SSI - Abdominal Hysterectomy: Upper Confidence Limit
+HAI_4_DOPC,SSI - Abdominal Hysterectomy: Number of Procedures
+HAI_4_ELIGCASES,SSI - Abdominal Hysterectomy: Predicted Cases
+HAI_4_NUMERATOR,SSI - Abdominal Hysterectomy: Observed Cases
+HAI_4_SIR,SSI - Abdominal Hysterectomy
+HAI_5_CILOWER,MRSA Bacteremia: Lower Confidence Limit
+HAI_5_CIUPPER,MRSA Bacteremia: Upper Confidence Limit
+HAI_5_DOPC,MRSA Bacteremia: Patient Days
+HAI_5_ELIGCASES,MRSA Bacteremia: Predicted Cases
+HAI_5_NUMERATOR,MRSA Bacteremia: Observed Cases
+HAI_5_SIR,MRSA Bacteremia
+HAI_6_CILOWER,Clostridium Difficile (C.Diff): Lower Confidence Limit
+HAI_6_CIUPPER,Clostridium Difficile (C.Diff): Upper Confidence Limit
+HAI_6_DOPC,Clostridium Difficile (C.Diff): Patient Days
+HAI_6_ELIGCASES,Clostridium Difficile (C.Diff): Predicted Cases
+HAI_6_NUMERATOR,Clostridium Difficile (C.Diff): Observed Cases
+HAI_6_SIR,Clostridium Difficile (C.Diff)
