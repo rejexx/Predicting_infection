@@ -1,4 +1,4 @@
-#  ![Predicting MRSA Infections Header](.\figures\Predicting MRSA Healthcare Related Infections.png)
+#  ![Predicting MRSA Infections Header](./figures/Predicting%20MRSA%20Healthcare%20Related%20Infections.png)
 SpringBoard Capstone 1 of 2
 
 ## Purpose
@@ -57,7 +57,7 @@ Timely and effective care
 
 ## EDA (exploratory data analysis)
 
- ![HeatMap](.\figures\HeatMap_Annotations.png)
+ ![HeatMap](./figures/HeatMap_Annotations.png)
  *Correlation heat map of primary variables.  The MRSA  target variables (variable I'm trying to predict) is outlined in blue*
 
 EDA indicated that there was very little correlation with HAI SIR scores and any other variables.  Meaning this would be a hard value to predict with regression!
@@ -100,7 +100,7 @@ I chose to work with [Scikit Learn's Random Forest Regressor](https://scikit-lea
 
 The random forest model was still overfit, giving a much better train score than the test scores.  I went forward with it nonetheless.
 
-![Feature Importance](.\figures\randomForest_feature_importance.png) *Feature importance of random forest model for predicting MRSA number of observations*
+![Feature Importance](./figures/randomForest_feature_importance.png) *Feature importance of random forest model for predicting MRSA number of observations*
 
 The two most important features are from HAI type 2 and 6, Catheter Associated Urinary Tract Infections and Clostridium Difficile (C.Diff).  It appears there's at least a correlation between those HAIs (healthcare associated infection) and MRSA HAIs.  For the  meaning of the rest of these, take a look at the [name abbreviation files in the appendix](#File-Overview).
 
@@ -114,7 +114,7 @@ I was able to predict the total number of observed cases at a given hospital bef
 
 The CMS (Center for Medicaid and Medicare Services) who provide these data have their own predictions.  Their prediction is based on historical data combined with information about the hospital.  How do my results compare?
 
-![CMS compared with my regression](.\figures\CMS_vs_me.png) *Different data predicting similar results*
+![CMS compared with my regression](./figures/CMS_vs_me.png) *Different data predicting similar results*
 
 The metrics show the two results are very similar
 
@@ -130,7 +130,7 @@ median MSE, test 9.474
 
 
 
-![Histogram difference](.\figures\error_hist.png) *Error histograms, actual cases minus predicted cases*
+![Histogram difference](./figures/error_hist.png) *Error histograms, actual cases minus predicted cases*
 
 #### Interpretations and conclusions:
 
