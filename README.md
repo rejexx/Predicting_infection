@@ -13,10 +13,10 @@ I chose MRSA infections as it seemed the least influenced  by certain medical pr
 ## 1. Data Source
 All data used in this project are publicly available from the United States CMS (centers for Medicare and Medicaid).  Don't be fooled by the name -  these data are not restricted to only Medicaid or Medicare patients.  They are used to rank hospitals nationwide.  I pulled the 2019 data for the 3 data sets below and combined them together for this project.  2019 was the most recent year of complete data due to issues with data collection during the COVID-19 pandemic in 2020. 
 
-**Healthcare Associated Infections (HAIs)** [CMS data source]([https://data.cms.gov/provider-data/dataset/77hc-ibv8])
+**Healthcare Associated Infections (HAIs)** [CMS data source](https://data.cms.gov/provider-data/dataset/77hc-ibv8)
 <br> - How often patients get an infection while in the hospital. This contains what I'm trying to predict, MRSA infections.  This measure is categorized into several different types and means of infections (related to equipment, procedures, or location of infection).  It is also compared to a national benchmark for that type of hospital, and standardized to some degree based on things like how many beds at the hospital, lab methods used, affiliation with a medical school, patient age and some others. 
 
-**Patient survey (HCAHPS)** [CMS data source](https://data.cms.gov/provider-data/topics/hospitals/hcahps#hcahps-star-ratings) 
+**Patient survey (HCAHPS)** [CMS data source](https://data.cms.gov/provider-data/dataset/dgck-syfz) 
 <br> - this survey is administered to patients at random (not just Medicare patients).  This has 19 questions about the hospital + 10 other demographic and screening questions. ([details on questions here](https://data.cms.gov/provider-data/topics/hospitals/hcahps#about-the-hcahps-survey) )
 
 Star rating and linear score (part HCAHPS survey results) 
