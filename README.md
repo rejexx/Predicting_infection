@@ -27,6 +27,8 @@ Star rating and linear score (part HCAHPS survey results)
 
 ## Data Cleaning
 
+Notebook: [01_DataWrangling.ipynb](./01_DataWrangling.ipynb)
+
 I combined all three data sources and standardized them to be one line per hospital facility.  Here's a few other things I did along the way:
 
 * Initially had 4878 facilities:
@@ -57,7 +59,7 @@ Timely and effective care
 
 ## EDA (exploratory data analysis)
 
- ![HeatMap](./figures/HeatMap_Annotations.png)
+ Notebook: [02_ExploratoryDataAnalysis_HAI.ipynb](./02_ExploratoryDataAnalysis_HAI.ipynb)![HeatMap](./figures/HeatMap_Annotations.png)
  *Correlation heat map of primary variables.  The MRSA  target variables (variable I'm trying to predict) is outlined in blue*
 
 EDA indicated that there was very little correlation with HAI SIR scores and any other variables.  Meaning this would be a hard value to predict with regression!
@@ -80,6 +82,8 @@ Here's a few take away seen in the above correlation heatmap.
      
 
 ## Algorithms and Machine Learning
+
+Notebook: [03_Preprocessing_and_Modeling.ipynb](03_Preprocessing_and_Modeling.ipynb)
 
 At this point I did a little more data cleaning to prep for machine learning.  One was to remove the upper and lower confidence limits for the HAI data, location data (state, zip codes).  I also removed anything with a null MRSA SIR score
 
