@@ -1,0 +1,75 @@
+Final model:
+	Imputation of NaNs:
+	 'simpleimputer__strategy': 'mean',
+	Random Forest Regressor
+	 'randomforestregressor__n_estimators': 125,
+	 'randomforestregressor__min_samples_split': 2
+
+X: (Before breaking into test and train groups)
+	Int64Index: 1715 entries, 0 to 3095
+	Data columns (total 46 columns):
+	 #   Column                               Non-Null Count  Dtype  
+	---  ------                               --------------  -----  
+	 0   HAI_1_DOPC                           1712 non-null   float64
+	 1   HAI_1_ELIGCASES                      1712 non-null   float64
+	 2   HAI_1_NUMERATOR                      1712 non-null   float64
+	 3   HAI_1_SIR_Score                      1675 non-null   float64
+	 4   HAI_2_DOPC                           1712 non-null   float64
+	 5   HAI_2_ELIGCASES                      1712 non-null   float64
+	 6   HAI_2_NUMERATOR                      1712 non-null   float64
+	 7   HAI_2_SIR_Score                      1689 non-null   float64
+	 8   HAI_3_DOPC                           1704 non-null   float64
+	 9   HAI_3_ELIGCASES                      1704 non-null   float64
+	 10  HAI_3_NUMERATOR                      1704 non-null   float64
+	 11  HAI_3_SIR_Score                      1551 non-null   float64
+	 12  HAI_4_DOPC                           1665 non-null   float64
+	 13  HAI_4_ELIGCASES                      1665 non-null   float64
+	 14  HAI_4_NUMERATOR                      1665 non-null   float64
+	 15  HAI_4_SIR_Score                      780 non-null    float64
+	 16  HAI_5_DOPC                           1715 non-null   float64
+	 17  HAI_6_DOPC                           1715 non-null   float64
+	 18  HAI_6_ELIGCASES                      1715 non-null   float64
+	 19  HAI_6_NUMERATOR                      1715 non-null   float64
+	 20  HAI_6_SIR_Score                      1715 non-null   float64
+	 21  H_CLEAN_LINEAR_SCORE                 1693 non-null   float64
+	 22  H_COMP_1_LINEAR_SCORE                1693 non-null   float64
+	 23  H_COMP_2_LINEAR_SCORE                1693 non-null   float64
+	 24  H_COMP_3_LINEAR_SCORE                1693 non-null   float64
+	 25  H_COMP_5_LINEAR_SCORE                1693 non-null   float64
+	 26  H_COMP_6_LINEAR_SCORE                1693 non-null   float64
+	 27  H_COMP_7_LINEAR_SCORE                1693 non-null   float64
+	 28  H_HSP_RATING_LINEAR_SCORE            1693 non-null   float64
+	 29  H_QUIET_LINEAR_SCORE                 1693 non-null   float64
+	 30  H_RECMND_LINEAR_SCORE                1693 non-null   float64
+	 31  SEP_1                                1633 non-null   float64
+	 32  SEP_SH_3HR                           1629 non-null   float64
+	 33  SEP_SH_6HR                           1291 non-null   float64
+	 34  SEV_SEP_3HR                          1633 non-null   float64
+	 35  SEV_SEP_6HR                          1626 non-null   float64
+	 36  HAI_1_SIR_ComparedToNational_encode  1675 non-null   float64
+	 37  HAI_2_SIR_ComparedToNational_encode  1689 non-null   float64
+	 38  HAI_3_SIR_ComparedToNational_encode  1551 non-null   float64
+	 39  HAI_4_SIR_ComparedToNational_encode  780 non-null    float64
+	 40  HAI_6_SIR_ComparedToNational_encode  1715 non-null   float64
+	 41  HAI_1_hoursPerCase                   1712 non-null   float64
+	 42  HAI_2_hoursPerCase                   1712 non-null   float64
+	 43  HAI_3_hoursPerCase                   1703 non-null   float64
+	 44  HAI_4_hoursPerCase                   1665 non-null   float64
+	 45  HAI_6_hoursPerCase                   1715 non-null   float64
+	 
+Y: 
+	HAI_baseLine.HAI_5_NUMERATOR
+		count    1715.000000
+		mean        4.417493
+		std         5.861842
+		min         0.000000
+		25%         1.000000
+		50%         3.000000
+		75%         5.000000
+		max        48.000000
+		Name: HAI_5_NUMERATOR, dtype: float64
+
+Model Metrics:
+	median_r2, train, test (0.9577987656607538, 0.7248542798590838)
+	median MAE, train, test:  (0.7654733333333333, 1.991735922330097)
+	median MSE,  train, test (1.4127032000000002, 9.996811433009709)
